@@ -1,12 +1,22 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import NavBar from "./components/NavBar";
+import About from "./pages/About";
+import Form from "./pages/Form";
+import Home from "./pages/Home";
 
 function App() {
-
   return (
     <>
-    <h1>HELLO WORLD!</h1>
-    <p>OLOKINHOMEEU</p>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/form" element={<Form />} />
+        </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
