@@ -1,18 +1,28 @@
-import { Link } from "react-router-dom";
+import {
+  Wrapper,
+  LinkWrapper,
+  ItemWrapper,
+  LinkStyled,
+  Logo,
+} from "./NavBar.style";
+import logo from "../../assets/img/gofast.jpeg";
 
 const NavBar = () => (
   <>
-    <ul>
-      <li>
-        <Link to={"/"}>Home</Link>
-      </li>
-      <li>
-        <Link to={"/about"}>About</Link>
-      </li>
-      <li>
-        <Link to={"/form"}>Form</Link>
-      </li>
-    </ul>
+    <Wrapper>
+      <Logo src={logo} />
+      <LinkWrapper>
+        <ItemWrapper>
+          <LinkStyled to={"/"}>Home</LinkStyled>
+        </ItemWrapper>
+        <ItemWrapper>
+          <LinkStyled to={"/about"}>About</LinkStyled>
+        </ItemWrapper>
+        <ItemWrapper>
+          <LinkStyled to={"/form"}>Form</LinkStyled>
+        </ItemWrapper>
+      </LinkWrapper>
+    </Wrapper>
   </>
 );
 
