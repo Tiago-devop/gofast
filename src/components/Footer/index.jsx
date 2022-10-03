@@ -1,18 +1,27 @@
-import { FooterStyled } from "./Footer.styles";
-import { facebook, instagram, twitter } from '../../assets/img/svg';
+import { FooterStyled, LinkStyled } from "./Footer.styles";
+import { facebook, instagram, twitter } from "../../assets/img/svg";
 
 const Footer = () => (
   <>
     <FooterStyled>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus,
-        eveniet qui animi porro necessitatibus nulla inventore id dolorem non,
-        maiores eos enim commodi ullam veritatis corrupti assumenda harum!
-        Accusamus, praesentium!
+        GoFast todos os direitos reservados <span>&#169;</span>
       </p>
-      <img src={instagram} />
-      <img src={facebook} />
-      <img src={twitter} />
+      <LinkStyled
+        href="https://www.instagram.com/soulcodeacademy/"
+        target="_blank"
+      >
+        <img src={instagram} />
+      </LinkStyled>
+      <LinkStyled
+        href="https://www.facebook.com/SoulCodeAcademy"
+        target="_blank"
+      >
+        <img src={facebook} />
+      </LinkStyled>
+      <LinkStyled href="https://twitter.com/SoulCodeAcademy" target="_blank">
+        <img src={twitter} />
+      </LinkStyled>
     </FooterStyled>
   </>
 );

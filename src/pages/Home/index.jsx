@@ -20,7 +20,7 @@ import {
 const Home = () => (
   <>
     <Wrapper>
-      <Divider></Divider>
+      <Divider style={{height: '50px'}}></Divider>
       <Title>GoFast Auto</Title>
       <CarrouselStyledWrapper>
         <CarrouselStyled autoplay>
