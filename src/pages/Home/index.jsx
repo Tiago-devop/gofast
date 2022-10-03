@@ -7,7 +7,7 @@ import {
   Image,
 } from "./Home.style";
 import { hyundai, mercedes, volvo } from "../../assets/img/Caminhao";
-import { bmw, gol, hb20, mobi, rangerRover, yares } from "../../assets/img/Carro";
+import { bmw, gol, hb20, mobi, rangeRover, yares } from "../../assets/img/Carro";
 
 const Home = () => (
   <>
@@ -42,7 +42,7 @@ const Home = () => (
             <Image src={mobi} />
           </CarrouselItemWrapper>
           <CarrouselItemWrapper>
-            <Image src={rangerRover} />
+            <Image src={rangeRover} />
           </CarrouselItemWrapper>
           <CarrouselItemWrapper>
             <Image src={yares} />
