@@ -34,11 +34,9 @@ const Form = () => (
 
 <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" />
 
-<label for="company">Empresa</label><input  id="company" maxlength="40" name="company" size="20" type="text" />
+<label for="company">Empresa</label><input  id="company" maxlength="40" name="company" size="20" type="text" /> 
 
-<label for="city">Cidade</label><input  id="city" maxlength="40" name="city" size="20" type="text" />
-
-<label for="state">Estado/província</label><input  id="state" maxlength="20" name="state" size="20" type="text" />
+<label for="regiao">Região</label><input  id="regiao" maxlength="20" name="regiao__c" size="20" type="text" />
 
 <input type="submit" name="submit" />
 
