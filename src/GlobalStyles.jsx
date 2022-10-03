@@ -4,7 +4,7 @@ import 'antd/dist/antd.css';
 
 const GlobalStyle = createGlobalStyle`
   html {
-    background-color:  	#F0F8FF;
+    background-color:  	#6A6A6A;
   }
   body {
     background-color: #783CB8;

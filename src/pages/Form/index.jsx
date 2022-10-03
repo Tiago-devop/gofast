@@ -1,7 +1,8 @@
-import { Title } from "./Form.style";
+import { Title, FormStyled, Wrapper } from "./Form.style";
 
 const Form = () => (
   <>
+  <Wrapper>
     <Title>FORM</Title>
     {/* <!--  ----------------------------------------------------------------------  -->
 <!--  NOTA: Adicione o seguinte elemento <META> à sua página <HEAD>.  Se      -->
@@ -15,7 +16,7 @@ const Form = () => (
 <!--  NOTA: Adicione o elemento <FORM> a seguir à sua página.                 -->
 <!--  ----------------------------------------------------------------------  --> */}
 
-<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+<FormStyled action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
 <input type="hidden" name="oid" value="00D3t000005epUW" />
 <input type="hidden" name="retURL" value="http://" />
@@ -40,8 +41,8 @@ const Form = () => (
 
 <input type="submit" name="submit" />
 
-</form>
-
+</FormStyled>
+  </Wrapper>
   </>
 );
 
