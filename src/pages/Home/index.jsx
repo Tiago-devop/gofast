@@ -8,14 +8,6 @@ import {
 } from "./Home.style";
 import { hyundai, mercedes, volvo } from "../../assets/img/Caminhao";
 
-const contentStyle = {
-  height: "160px",
-  color: "#fff",
-  lineHeight: "160px",
-  textAlign: "center",
-  background: "#364d79",
-};
-
 const Home = () => (
   <>
     <Wrapper>

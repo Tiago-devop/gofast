@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
     height: 1200px;
     max-width: 1200px;
     background-color: #783CB8;
+    color: white;
   }
 `;
 
