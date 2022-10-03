@@ -17,8 +17,8 @@ const Form = () => (
 
 <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
-<input type=hidden name="oid" value="00D3t000005epUW">
-<input type=hidden name="retURL" value="http://">
+<input type="hidden" name="oid" value="00D3t000005epUW" />
+<input type="hidden" name="retURL" value="http://" />
 
 {/* <!--  ----------------------------------------------------------------------  -->
 <!--  NOTA: Estes campos são elementos de depuração opcionais. Remova o       -->
@@ -40,7 +40,7 @@ const Form = () => (
 
 <label for="state">Estado/província</label><input  id="state" maxlength="20" name="state" size="20" type="text" />
 
-<input type="submit" name="submit">
+<input type="submit" name="submit" />
 
 </form>
 
