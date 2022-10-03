@@ -11,27 +11,25 @@ import { hyundai, mercedes, volvo } from "../../assets/img/Caminhao";
 const Home = () => (
   <>
     <Wrapper>
-      <Title>HOME</Title>
+      <Title>GoFast Auto</Title>
       <CarrouselStyledWrapper>
         <CarrouselStyled autoplay>
           <CarrouselItemWrapper>
             <Image src={hyundai} />
           </CarrouselItemWrapper>
           <CarrouselItemWrapper>
-          <Image src={mercedes} />
+            <Image src={mercedes} />
           </CarrouselItemWrapper>
           <CarrouselItemWrapper>
-          <Image src={volvo} />
+            <Image src={volvo} />
           </CarrouselItemWrapper>
         </CarrouselStyled>
       </CarrouselStyledWrapper>
       <main>
-        <h2>GoFast Auto</h2>
-
         <p>
-          Somos uma empresa tradicional no ramo de veículos, trabalhamos para
-          manter sempre um atendimento bom e de qualidade nos nossos clientes.
-          Buscando oferecer variedades de produtos.
+          A GoFast Auto é uma empresa tradicional no ramo de veículos,
+          trabalhamos para manter sempre um atendimento bom e de qualidade nos
+          nossos clientes. Buscando oferecer variedades de produtos.
         </p>
       </main>
     </Wrapper>
