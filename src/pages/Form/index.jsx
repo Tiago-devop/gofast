@@ -28,15 +28,15 @@ const Form = () => (
 <!--  value="gofastautosoul@gmail.com">                                       -->
 <!--  ----------------------------------------------------------------------  --> */}
 
-<label for="first_name">Primeiro Nome</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" />
+<label htmlFor="first_name">Primeiro Nome</label><input  id="first_name" maxLength="40" name="first_name" size="20" type="text" />
 
-<label for="last_name">Sobrenome</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" />
+<label htmlFor="last_name">Sobrenome</label><input  id="last_name" maxLength="80" name="last_name" size="20" type="text" />
 
-<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" />
+<label htmlFor="email">Email</label><input  id="email" maxLength="80" name="email" size="20" type="text" />
 
-<label for="company">Empresa</label><input  id="company" maxlength="40" name="company" size="20" type="text" /> 
+<label htmlFor="company">Empresa</label><input  id="company" maxLength="40" name="company" size="20" type="text" /> 
 
-<label for="regiao">Região</label><input  id="regiao" maxlength="20" name="regiao__c" size="20" type="text" />
+<label htmlFor="regiao">Região</label><input  id="regiao" maxLength="20" name="regiao__c" size="20" type="text" />
 
 <input type="submit" name="submit" />
 
