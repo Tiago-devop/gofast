@@ -19,7 +19,7 @@ export const LinkWrapper = styled.ul`
 export const ItemWrapper = styled.li``;
 
 export const LinkStyled = styled(Link)`
-  box-shadow: 0px 0px 30px -2px rgba(0,0,0,0.10);
+  box-shadow: 0px 0px 30px -2px rgba(0, 0, 0, 0.1);
   text-decoration: none;
   font-size: 1.5rem;
   margin: 0 10px;
@@ -33,7 +33,19 @@ export const LinkStyled = styled(Link)`
   }
 `;
 
-export const Logo = styled.img`
+export const LogoWrapper = styled.div`
+  position: relative;
   margin-right: auto;
+  border-radius: 50%;
+  margin-left: 15px;
+  overflow: hidden;
   height: 88px;
+  width: 88px;
+  `;
+
+export const Logo = styled.img`
+  position: absolute;
+  height: 96px;
+  left: -1.5px;
+  top: -3.6px;
 `;
