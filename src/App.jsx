@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import GlobalStyle from "./GlobalStyles";
 import About from "./pages/About";
@@ -16,6 +17,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/form" element={<Form />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

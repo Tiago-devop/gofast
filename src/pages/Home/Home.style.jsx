@@ -2,8 +2,8 @@ import styled from "styled-components";
 import { Carousel } from "antd";
 
 export const Wrapper = styled.div`
-  display: flex;
   flex-direction: column;
+  display: flex;
   padding: 50px;
 
   p {
@@ -24,12 +24,17 @@ export const CarrouselStyled = styled(Carousel)``;
 export const CarrouselStyledWrapper = styled.div``;
 
 export const CarrouselItemWrapper = styled.div`
-  width: 100%;
   height: 100%;
+  width: 100%;
 `;
 
 export const Image = styled.img`
+  object-fit: cover;
   margin: 0 auto;
   height: 400px;
-  object-fit: cover;
+`;
+
+export const Divider = styled.div`
+  width: 100%;
+  height: 100px;
 `;

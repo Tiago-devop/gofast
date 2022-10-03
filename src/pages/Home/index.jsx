@@ -4,6 +4,7 @@ import {
   CarrouselStyled,
   CarrouselStyledWrapper,
   CarrouselItemWrapper,
+  Divider,
   Image,
 } from "./Home.style";
 import { hyundai, mercedes, volvo } from "../../assets/img/Caminhao";
@@ -12,6 +13,7 @@ import { bmw, gol, hb20, mobi, rangeRover, yares } from "../../assets/img/Carro"
 const Home = () => (
   <>
     <Wrapper>
+      <Divider></Divider>
       <Title>GoFast Auto</Title>
       <CarrouselStyledWrapper>
         <CarrouselStyled autoplay>
@@ -58,6 +60,9 @@ const Home = () => (
           nossos clientes. Buscando oferecer variedades de produtos.
         </p>
       </main>
+      <Divider></Divider>
+      <Divider></Divider>
+
     </Wrapper>
   </>
 );
