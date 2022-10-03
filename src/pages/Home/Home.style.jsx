@@ -5,7 +5,6 @@ import { Carousel } from "antd";
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 100px);
   padding: 50px;
 
   p {
