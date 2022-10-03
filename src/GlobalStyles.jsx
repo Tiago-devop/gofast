@@ -7,13 +7,14 @@ const GlobalStyle = createGlobalStyle`
     background-color:  	#F0F8FF;
   }
   body {
-    margin: 0 auto !important;
-    padding: 0;
-    box-sizing: border-box;
-    height: 1200px;
-    max-width: 1200px;
     background-color: #783CB8;
+    margin: 0 auto !important;
+    box-sizing: border-box;
+    max-width: 1200px;
+    height: 1400px;
     color: white;
+    padding: 0;
+    position: relative;
   }
 `;
 
