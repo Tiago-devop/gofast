@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { Carousel } from "antd";
-import 'antd/dist/antd.css';
+// import 'antd/dist/antd.css';
 
 
 export const Wrapper = styled.div`
