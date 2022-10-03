@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
   min-height: calc(100vh - 88px);
   padding: 50px;
 
