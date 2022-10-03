@@ -1,4 +1,5 @@
 import { FooterStyled } from "./Footer.styles";
+import { facebook, instagram, twitter } from '../../assets/img/svg';
 
 const Footer = () => (
   <>
@@ -9,6 +10,9 @@ const Footer = () => (
         maiores eos enim commodi ullam veritatis corrupti assumenda harum!
         Accusamus, praesentium!
       </p>
+      <img src={instagram} />
+      <img src={facebook} />
+      <img src={twitter} />
     </FooterStyled>
   </>
 );
