@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { Carousel } from "antd";
-// import 'antd/dist/antd.css';
 
 
 export const Wrapper = styled.div`
@@ -15,7 +14,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.h1`
-  color: blue;
+  color: white;
 `;
 
 export const CarrouselStyled = styled(Carousel)`

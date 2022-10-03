@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     max-width: 1200px;
-    background-color: #F7F2F9;
+    background-color: #783CB8;
   }
 `;
 

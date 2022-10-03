@@ -31,9 +31,6 @@ const Home = () => (
           <CarrouselItemWrapper>
           <Image src={volvo} />
           </CarrouselItemWrapper>
-          <CarrouselItemWrapper>
-            <h3 style={contentStyle}>4</h3>
-          </CarrouselItemWrapper>
         </CarrouselStyled>
       </CarrouselStyledWrapper>
       <main>

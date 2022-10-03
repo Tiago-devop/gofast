@@ -5,6 +5,7 @@ export const Wrapper = styled.div`
   background-color: #8828D0;
   display: flex;
   justify-content: flex-start;
+  box-shadow: 0px 0px 30px -2px rgba(0, 0, 0, 0.1);
 `;
 
 export const LinkWrapper = styled.ul`
