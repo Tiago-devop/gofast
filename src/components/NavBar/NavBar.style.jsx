@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const Wrapper = styled.div`
-  background-color: grey;
+  background-color: #8828D0;
   display: flex;
   justify-content: flex-start;
 `;
@@ -29,7 +29,7 @@ export const LinkStyled = styled(Link)`
 
   &:hover {
     transition: all 0.5s ease-in-out;
-    background-color: blue;
+    background-color: #3D1C63;
   }
 `;
 
@@ -45,7 +45,7 @@ export const LogoWrapper = styled.div`
 
 export const Logo = styled.img`
   position: absolute;
-  height: 96px;
-  left: -1.5px;
-  top: -3.6px;
+  height: 103px;
+  left: -6px;
+  top: -6px;
 `;

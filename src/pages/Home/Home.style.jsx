@@ -22,6 +22,16 @@ export const CarrouselStyled = styled(Carousel)`
 `;
 
 export const CarrouselStyledWrapper = styled.div`
-  width: 400px;
-  height: 400px;
+`;
+
+export const CarrouselItemWrapper = styled.div`
+  width: 100%;
+  height: 100%;
+`;
+
+export const Image = styled.img`
+  margin: 0 auto;
+  width: 80%;
+  height: 500px;
+  object-fit: cover;
 `;

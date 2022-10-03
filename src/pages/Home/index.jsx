@@ -3,7 +3,10 @@ import {
   Wrapper,
   CarrouselStyled,
   CarrouselStyledWrapper,
+  CarrouselItemWrapper,
+  Image,
 } from "./Home.style";
+import { hyundai, mercedes, volvo } from "../../assets/img/Caminhao";
 
 const contentStyle = {
   height: "160px",
@@ -19,26 +22,28 @@ const Home = () => (
       <Title>HOME</Title>
       <CarrouselStyledWrapper>
         <CarrouselStyled autoplay>
-          <div>
-            <h3 style={contentStyle}>1</h3>
-          </div>
-          <div>
-            <h3 style={contentStyle}>2</h3>
-          </div>
-          <div>
-            <h3 style={contentStyle}>3</h3>
-          </div>
-          <div>
+          <CarrouselItemWrapper>
+            <Image src={hyundai} />
+          </CarrouselItemWrapper>
+          <CarrouselItemWrapper>
+          <Image src={mercedes} />
+          </CarrouselItemWrapper>
+          <CarrouselItemWrapper>
+          <Image src={volvo} />
+          </CarrouselItemWrapper>
+          <CarrouselItemWrapper>
             <h3 style={contentStyle}>4</h3>
-          </div>
+          </CarrouselItemWrapper>
         </CarrouselStyled>
       </CarrouselStyledWrapper>
       <main>
+        <h2>GoFast Auto</h2>
 
-       <h2>GoFast Auto</h2>
-
-       <p>Somos uma empresa tradicional no ramo de veículos, trabalhamos para manter sempre um atendimento bom e de qualidade nos nossos clientes. Buscando oferecer variedades de produtos.</p>
-       
+        <p>
+          Somos uma empresa tradicional no ramo de veículos, trabalhamos para
+          manter sempre um atendimento bom e de qualidade nos nossos clientes.
+          Buscando oferecer variedades de produtos.
+        </p>
       </main>
     </Wrapper>
   </>
