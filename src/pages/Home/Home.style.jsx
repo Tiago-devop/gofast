@@ -21,7 +21,8 @@ export const Title = styled.h1`
 
 export const CarrouselStyled = styled(Carousel)``;
 
-export const CarrouselStyledWrapper = styled.div``;
+export const CarrouselStyledWrapper = styled.div`
+`;
 
 export const CarrouselItemWrapper = styled.div`
   height: 100%;
@@ -31,7 +32,7 @@ export const CarrouselItemWrapper = styled.div`
 export const Image = styled.img`
   object-fit: cover;
   margin: 0 auto;
-  height: 400px;
+  height: 300px;
 `;
 
 export const Divider = styled.div`

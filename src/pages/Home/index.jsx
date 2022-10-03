@@ -8,7 +8,14 @@ import {
   Image,
 } from "./Home.style";
 import { hyundai, mercedes, volvo } from "../../assets/img/Caminhao";
-import { bmw, gol, hb20, mobi, rangeRover, yares } from "../../assets/img/Carro";
+import {
+  bmw,
+  gol,
+  hb20,
+  mobi,
+  rangeRover,
+  yares,
+} from "../../assets/img/Carro";
 
 const Home = () => (
   <>
@@ -27,9 +34,11 @@ const Home = () => (
             <Image src={volvo} />
           </CarrouselItemWrapper>
         </CarrouselStyled>
-      </CarrouselStyledWrapper>
-
-      <CarrouselStyledWrapper>
+        <p>
+          A GoFast Auto é uma empresa tradicional no ramo de veículos,
+          trabalhamos para manter sempre um atendimento bom e de qualidade nos
+          nossos clientes. Buscando oferecer variedades de produtos.
+        </p>
         <CarrouselStyled autoplay>
           <CarrouselItemWrapper>
             <Image src={bmw} />
@@ -51,18 +60,7 @@ const Home = () => (
           </CarrouselItemWrapper>
         </CarrouselStyled>
       </CarrouselStyledWrapper>
-      
-
-      <main>
-        <p>
-          A GoFast Auto é uma empresa tradicional no ramo de veículos,
-          trabalhamos para manter sempre um atendimento bom e de qualidade nos
-          nossos clientes. Buscando oferecer variedades de produtos.
-        </p>
-      </main>
       <Divider></Divider>
-      <Divider></Divider>
-
     </Wrapper>
   </>
 );
