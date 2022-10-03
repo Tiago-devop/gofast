@@ -4,10 +4,10 @@ import 'antd/dist/antd.css';
 
 
 export const Wrapper = styled.div`
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 88px);
-  padding: 50px; */
+  min-height: calc(100vh - 100px);
+  padding: 50px;
 
   p {
     font-size: 1.5rem;
