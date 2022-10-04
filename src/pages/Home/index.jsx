@@ -11,23 +11,22 @@ import {
   PStyled,
 } from "./Home.style";
 
-import { hyundai,
-mercedes,
-volvo,
-bmw,
-gol,
-hb20,
-mobi,
-moto150,
-moto600,
-motoBmw,
-onibusMercedes,
-onibusVolvo,
-rangeRover,
-yares,
+import {
+  hyundai,
+  mercedes,
+  volvo,
+  bmw,
+  gol,
+  hb20,
+  mobi,
+  moto150,
+  moto600,
+  motoBmw,
+  onibusMercedes,
+  onibusVolvo,
+  rangeRover,
+  yares,
 } from "../../assets/img/produtos";
-
-
 
 import { background } from "../../assets/video";
 
@@ -41,9 +40,7 @@ const Home = () => (
       </VideoWrapper>
 
       <CarrouselStyledWrapper>
-        
         <CarrouselStyled autoplay>
-
           <CarrouselItemWrapper>
             <Image src={hyundai} />
           </CarrouselItemWrapper>
@@ -55,11 +52,11 @@ const Home = () => (
           <CarrouselItemWrapper>
             <Image src={volvo} />
           </CarrouselItemWrapper>
-     
-        <CarrouselItemWrapper>
+
+          <CarrouselItemWrapper>
             <Image src={bmw} />
           </CarrouselItemWrapper>
-          
+
           <CarrouselItemWrapper>
             <Image src={gol} />
           </CarrouselItemWrapper>
@@ -75,7 +72,7 @@ const Home = () => (
           <CarrouselItemWrapper>
             <Image src={moto150} />
           </CarrouselItemWrapper>
-          
+
           <CarrouselItemWrapper>
             <Image src={moto600} />
           </CarrouselItemWrapper>
@@ -99,13 +96,17 @@ const Home = () => (
           <CarrouselItemWrapper>
             <Image src={yares} />
           </CarrouselItemWrapper>
-
-          </CarrouselStyled>
-
-        <PStyled style={{zIndex: '1'}}>
+        </CarrouselStyled>
+        <Divider></Divider>
+        <PStyled style={{ zIndex: "1" }}>
           A GoFast Auto é uma empresa tradicional no ramo de veículos,
           trabalhamos para manter sempre um atendimento bom e de qualidade nos
           nossos clientes. Buscando oferecer variedades de produtos.
+        </PStyled>
+        <PStyled style={{ zIndex: "1" }}>
+          Nosso atendimento se torna diferenciado, pois a política da nossa
+          empresa nos permite ajudar e transparecer todo carinho e respeito a
+          quem nos confia.
         </PStyled>
       </CarrouselStyledWrapper>
     </Wrapper>
