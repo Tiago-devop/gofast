@@ -3,7 +3,7 @@ import { Title, FormStyled, Wrapper } from "./Form.style";
 const Form = () => (
   <>
   <Wrapper>
-    <Title>FORM</Title>
+    <Title>Formulário para Entrar em Contato</Title>
     {/* <!--  ----------------------------------------------------------------------  -->
 <!--  NOTA: Adicione o seguinte elemento <META> à sua página <HEAD>.  Se      -->
 <!--  necessário, modifique o parâmetro charset para especificar o conjunto   -->
@@ -39,7 +39,7 @@ const Form = () => (
 
 <label htmlFor="regiao">Região</label><input  id="regiao" maxLength="20" name="regiao__c" size="20" type="text" />
 
-<input type="submit" name="submit" />
+<input type="submit" name="submit" value="Enviar" />
 
 </FormStyled>
   </Wrapper>

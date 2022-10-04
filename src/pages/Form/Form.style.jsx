@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Title = styled.h1`
   color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
 `;
 
 export const FormStyled = styled.form`

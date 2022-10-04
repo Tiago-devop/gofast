@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 export const FooterStyled = styled.footer`
   display: flex;
@@ -27,4 +26,5 @@ export const FooterStyled = styled.footer`
 
 export const LinkStyled = styled.a`
   text-decoration: none;
+  margin-right: 10px;
 `;

@@ -19,7 +19,9 @@ export const Title = styled.h1`
   font-weight: 700;
 `;
 
-export const CarrouselStyled = styled(Carousel)``;
+export const CarrouselStyled = styled(Carousel)`
+  border: 1px solid white;
+`;
 
 export const CarrouselStyledWrapper = styled.div`
 `;
