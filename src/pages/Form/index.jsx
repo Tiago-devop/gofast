@@ -1,7 +1,6 @@
 import { Title, FormStyled, Wrapper } from "./Form.style";
 
 const Form = () => {
-
   return (
     <>
       <Wrapper>
@@ -15,13 +14,17 @@ const Form = () => {
         {/* <!--  ----------------------------------------------------------------------  -->
 <!--  NOTA: Adicione o elemento <FORM> a seguir à sua página.                 -->
 <!--  ----------------------------------------------------------------------  --> */}
-
+        <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8" />
         <FormStyled
           action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
           method="POST"
         >
           <input type="hidden" name="oid" value="00D3t000005epUW" />
-          <input type="hidden" name="retURL" value="https://github.com/Tiago-devop/gofast" />
+          <input
+            type="hidden"
+            name="retURL"
+            value="https://github.com/Tiago-devop/gofast"
+          />
 
           {/* <!--  ----------------------------------------------------------------------  -->
 <!--  NOTA: Estes campos são elementos de depuração opcionais. Remova o       -->
