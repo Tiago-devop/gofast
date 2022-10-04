@@ -11,16 +11,23 @@ import {
   PStyled,
 } from "./Home.style";
 
-import { hyundai, mercedes, volvo } from "../../assets/img/Caminhao";
+import { hyundai,
+mercedes,
+volvo,
+bmw,
+gol,
+hb20,
+mobi,
+moto150,
+moto600,
+motoBmw,
+onibusMercedes,
+onibusVolvo,
+rangeRover,
+yares,
+} from "../../assets/img/produtos";
 
-import {
-  bmw,
-  gol,
-  hb20,
-  mobi,
-  rangeRover,
-  yares,
-} from "../../assets/img/Carro";
+
 
 import { background } from "../../assets/video";
 
@@ -34,17 +41,67 @@ const Home = () => (
       </VideoWrapper>
 
       <CarrouselStyledWrapper>
+        
         <CarrouselStyled autoplay>
+
           <CarrouselItemWrapper>
             <Image src={hyundai} />
           </CarrouselItemWrapper>
+
           <CarrouselItemWrapper>
             <Image src={mercedes} />
           </CarrouselItemWrapper>
+
           <CarrouselItemWrapper>
             <Image src={volvo} />
           </CarrouselItemWrapper>
-        </CarrouselStyled>
+     
+        <CarrouselItemWrapper>
+            <Image src={bmw} />
+          </CarrouselItemWrapper>
+          
+          <CarrouselItemWrapper>
+            <Image src={gol} />
+          </CarrouselItemWrapper>
+
+          <CarrouselItemWrapper>
+            <Image src={hb20} />
+          </CarrouselItemWrapper>
+
+          <CarrouselItemWrapper>
+            <Image src={mobi} />
+          </CarrouselItemWrapper>
+
+          <CarrouselItemWrapper>
+            <Image src={moto150} />
+          </CarrouselItemWrapper>
+          
+          <CarrouselItemWrapper>
+            <Image src={moto600} />
+          </CarrouselItemWrapper>
+
+          <CarrouselItemWrapper>
+            <Image src={motoBmw} />
+          </CarrouselItemWrapper>
+
+          <CarrouselItemWrapper>
+            <Image src={onibusMercedes} />
+          </CarrouselItemWrapper>
+
+          <CarrouselItemWrapper>
+            <Image src={onibusVolvo} />
+          </CarrouselItemWrapper>
+
+          <CarrouselItemWrapper>
+            <Image src={rangeRover} />
+          </CarrouselItemWrapper>
+
+          <CarrouselItemWrapper>
+            <Image src={yares} />
+          </CarrouselItemWrapper>
+
+          </CarrouselStyled>
+
         <PStyled style={{zIndex: '1'}}>
           A GoFast Auto é uma empresa tradicional no ramo de veículos,
           trabalhamos para manter sempre um atendimento bom e de qualidade nos

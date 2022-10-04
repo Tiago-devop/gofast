@@ -1,0 +1,14 @@
+export { default as bmw } from "./bmw.jpg";
+export { default as gol } from "./gol.jpg";
+export { default as hb20 } from "./hb20.jpg";
+export { default as rangeRover } from "./rangeRover.jpg";
+export { default as mobi } from "./mobi.png";
+export { default as yares } from "./yares.jpeg";
+export { default as hyundai } from "./HYUNDAI.jpg";
+export { default as mercedes } from "./MERCEDES.jpg";
+export { default as moto150 } from "./Moto150.jpg";
+export { default as moto600 } from "./moto600.jpg";
+export { default as motoBmw } from "./motoBmw.jpg";
+export { default as onibusMercedes } from "./onibusMercedes.jpg";
+export { default as onibusVolvo } from "./onibusVolvo.jpg";
+export { default as volvo } from "./VOLVO.jpg";
