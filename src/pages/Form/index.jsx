@@ -23,7 +23,7 @@ const Form = () => {
           <input
             type="hidden"
             name="retURL"
-            value="https://github.com/Tiago-devop/gofast"
+            value="https://gofast.vercel.app/"
           />
 
           {/* <!--  ----------------------------------------------------------------------  -->
