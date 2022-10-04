@@ -40,6 +40,7 @@ export const Wrapper = styled.div`
     margin-top: 30px;
     border: none;
     height: 50px;
+    color: white;
 
     &:hover {
       transition: all 0.5s ease-in-out;
