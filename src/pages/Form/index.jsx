@@ -1,6 +1,11 @@
 import { Title, FormStyled, Wrapper } from "./Form.style";
 
-const Form = () => (
+const Form = () => { 
+    function handleClick(e) {
+      e.preventDefault();
+    }
+  
+  return (
   <>
   <Wrapper>
     <Title>Formulário para Entrar em Contato</Title>
@@ -39,11 +44,11 @@ const Form = () => (
 
 <label htmlFor="regiao">Região</label><input  id="regiao" maxLength="20" name="regiao__c" size="20" type="text" />
 
-<input type="submit" name="submit" value="Enviar" />
+<input type="submit" name="submit" value="Enviar"  />
 
 </FormStyled>
   </Wrapper>
   </>
-);
+)}
 
 export default Form;

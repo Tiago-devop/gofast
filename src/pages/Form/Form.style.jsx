@@ -28,6 +28,8 @@ export const Wrapper = styled.div`
     margin: 0 auto;
     height: 40px;
     width: 70%;
+    color: black;
+    font-size: 1.5rem;
   }
 
   input[type="submit"] {
