@@ -6,6 +6,9 @@ import {
   CarrouselItemWrapper,
   Divider,
   Image,
+  VideoStyled,
+  VideoWrapper,
+  PStyled,
 } from "./Home.style";
 
 import { hyundai, mercedes, volvo } from "../../assets/img/Caminhao";
@@ -19,15 +22,16 @@ import {
   yares,
 } from "../../assets/img/Carro";
 
-import { background } from "../../assets/video"
+import { background } from "../../assets/video";
 
 const Home = () => (
   <>
     <Wrapper>
-      <Divider style={{height: '50px'}}></Divider>
+      <Divider style={{ height: "50px" }}></Divider>
       <Title>GoFast Auto</Title>
-
-      <video src={ background } autoPlay loop muted />
+      <VideoWrapper>
+        <VideoStyled src={background} autoPlay loop muted />
+      </VideoWrapper>
 
       <CarrouselStyledWrapper>
         <CarrouselStyled autoplay>
@@ -41,35 +45,12 @@ const Home = () => (
             <Image src={volvo} />
           </CarrouselItemWrapper>
         </CarrouselStyled>
-
-        <p>
+        <PStyled style={{zIndex: '1'}}>
           A GoFast Auto é uma empresa tradicional no ramo de veículos,
           trabalhamos para manter sempre um atendimento bom e de qualidade nos
           nossos clientes. Buscando oferecer variedades de produtos.
-        </p>
-
-        <CarrouselStyled autoplay>
-          <CarrouselItemWrapper>
-            <Image src={bmw} />
-          </CarrouselItemWrapper>
-          <CarrouselItemWrapper>
-            <Image src={gol} />
-          </CarrouselItemWrapper>
-          <CarrouselItemWrapper>
-            <Image src={hb20} />
-          </CarrouselItemWrapper>
-          <CarrouselItemWrapper>
-            <Image src={mobi} />
-          </CarrouselItemWrapper>
-          <CarrouselItemWrapper>
-            <Image src={rangeRover} />
-          </CarrouselItemWrapper>
-          <CarrouselItemWrapper>
-            <Image src={yares} />
-          </CarrouselItemWrapper>
-        </CarrouselStyled>
+        </PStyled>
       </CarrouselStyledWrapper>
-      <Divider></Divider>
     </Wrapper>
   </>
 );
