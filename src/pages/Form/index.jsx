@@ -14,7 +14,7 @@ const Form = () => {
         {/* <!--  ----------------------------------------------------------------------  -->
 <!--  NOTA: Adicione o elemento <FORM> a seguir à sua página.                 -->
 <!--  ----------------------------------------------------------------------  --> */}
-        <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8" />
+        {/* <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8" /> */}
         <FormStyled
           action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
           method="POST"
