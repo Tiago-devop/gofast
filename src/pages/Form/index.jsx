@@ -29,9 +29,9 @@ const Form = () => {
           {/* <!--  ----------------------------------------------------------------------  -->
 <!--  NOTA: Estes campos são elementos de depuração opcionais. Remova o       -->
 <!--  comentário dessas linhas se quiser testar no modo de depuração.         -->
-<!--  <input type="hidden" name="debug" value=1>                              -->
-<!--  <input type="hidden" name="debugEmail"                                  -->
-<!--  value="gofastautosoul@gmail.com">                                       -->
+  <input type="hidden" name="debug" value=1>
+  <input type="hidden" name="debugEmail" value="gofastautosoul@gmailcom"> 
+<!--                                        -->
 <!--  ----------------------------------------------------------------------  --> */}
 
           <label htmlFor="first_name">Primeiro Nome</label>
