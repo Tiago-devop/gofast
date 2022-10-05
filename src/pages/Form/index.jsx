@@ -1,6 +1,18 @@
+import { useState } from "react";
 import { Title, FormStyled, Wrapper } from "./Form.style";
+import { cnpj } from "./util/cnpj";
 
 const Form = () => {
+  const [valor, setValores] = useState({ CNPJ__c: "" });
+
+  const inputChange = (event) => {
+    const { name, value } = event.target;
+    setValores({
+      ...valor,
+      [name]: value,
+    });
+  };
+
   return (
     <>
       <Wrapper>
@@ -41,6 +53,7 @@ const Form = () => {
             name="first_name"
             size="20"
             type="text"
+            required
           />
 
           <label htmlFor="last_name">Sobrenome</label>
@@ -50,10 +63,18 @@ const Form = () => {
             name="last_name"
             size="20"
             type="text"
+            required
           />
 
           <label htmlFor="email">Email</label>
-          <input id="email" maxLength="80" name="email" size="20" type="text" />
+          <input
+            id="email"
+            maxLength="80"
+            name="email"
+            size="20"
+            type="text"
+            required
+          />
 
           <label htmlFor="company">Empresa</label>
           <input
@@ -71,6 +92,18 @@ const Form = () => {
             name="regiao__c"
             size="20"
             type="text"
+            required
+          />
+
+          <label htmlFor="cnpj">CNPJ</label>
+          <input
+            id="cnpj"
+            name="CNPJ__c"
+            minLength="18"
+            type="text"
+            value={cnpj(valor.CNPJ__c)}
+            onChange={inputChange}
+            required
           />
 
           <input type="submit" name="submit" value="Enviar" />
