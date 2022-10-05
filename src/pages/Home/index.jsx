@@ -86,10 +86,6 @@ const Home = () => (
           </CarrouselItemWrapper>
 
           <CarrouselItemWrapper>
-            <Image src={onibusVolvo} />
-          </CarrouselItemWrapper>
-
-          <CarrouselItemWrapper>
             <Image src={rangeRover} />
           </CarrouselItemWrapper>
 

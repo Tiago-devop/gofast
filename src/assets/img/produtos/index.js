@@ -3,7 +3,7 @@ export { default as gol } from "./gol.png";
 export { default as hb20 } from "./hb20.png";
 export { default as rangeRover } from "./rangeRover.png";
 export { default as mobi } from "./mobi.png";
-export { default as yares } from "./yares.jpeg";
+export { default as yares } from "./yares.png";
 export { default as hyundai } from "./HYUNDAI.png";
 export { default as mercedes } from "./MERCEDES.png";
 export { default as moto150 } from "./Moto150.png";
