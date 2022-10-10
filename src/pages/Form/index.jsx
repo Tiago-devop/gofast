@@ -17,15 +17,13 @@ const Form = () => {
     <>
       <Wrapper>
         <Title>Formulário para Entrar em Contato</Title>
-        {/* <!--  ----------------------------------------------------------------------  -->
-<!--  NOTA: Adicione o seguinte elemento <META> à sua página <HEAD>.  Se      -->
-<!--  necessário, modifique o parâmetro charset para especificar o conjunto   -->
-<!--  de caracteres de sua página HTML.                                       -->
-<!--  ----------------------------------------------------------------------  --> */}
+        {/* 
+          NOTA: Adicione o seguinte elemento <META> à sua página <HEAD>.  Se      
+          necessário, modifique o parâmetro charset para especificar o conjunto   
+          de caracteres de sua página HTML.
+        */}
 
-        {/* <!--  ----------------------------------------------------------------------  -->
-<!--  NOTA: Adicione o elemento <FORM> a seguir à sua página.                 -->
-<!--  ----------------------------------------------------------------------  --> */}
+        {/* NOTA: Adicione o elemento <FORM> a seguir à sua página. */}
         {/* <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8" /> */}
         <FormStyled
           action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
@@ -38,13 +36,12 @@ const Form = () => {
             value="https://gofast.vercel.app/"
           />
 
-          {/* <!--  ----------------------------------------------------------------------  -->
-<!--  NOTA: Estes campos são elementos de depuração opcionais. Remova o       -->
-<!--  comentário dessas linhas se quiser testar no modo de depuração.         -->
-  <input type="hidden" name="debug" value=1>
-  <input type="hidden" name="debugEmail" value="gofastautosoul@gmailcom"> 
-<!--                                        -->
-<!--  ----------------------------------------------------------------------  --> */}
+          {/*
+            NOTA: Estes campos são elementos de depuração opcionais. Remova o       
+            comentário dessas linhas se quiser testar no modo de depuração.         
+            <input type="hidden" name="debug" value=1>
+            <input type="hidden" name="debugEmail" value="gofastautosoul@gmailcom">
+          */}
 
           <label htmlFor="first_name">Primeiro Nome</label>
           <input

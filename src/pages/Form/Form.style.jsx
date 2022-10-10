@@ -5,6 +5,11 @@ export const Title = styled.h1`
   text-align: center;
   font-size: 3rem;
   font-weight: 700;
+
+  @media (max-width: 500px) {
+    margin-top: 200px;
+  font-size: 2rem;
+  }
 `;
 
 export const FormStyled = styled.form`

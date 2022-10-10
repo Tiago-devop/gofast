@@ -42,6 +42,10 @@ export const LogoWrapper = styled.div`
   overflow: hidden;
   height: 88px;
   width: 88px;
+
+  @media (max-width: 526px) {
+    display: none;
+  }
   `;
 
 export const Logo = styled.img`
@@ -49,4 +53,8 @@ export const Logo = styled.img`
   height: 103px;
   left: -6px;
   top: -6px;
+
+  @media (max-width: 526px) {
+    display: none;
+  }
 `;

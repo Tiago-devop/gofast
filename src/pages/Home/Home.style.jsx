@@ -13,6 +13,10 @@ export const PStyled = styled.p`
   margin-top: 60px;
   font-size: 2rem;
   z-index: 1;
+
+  @media (max-width: 540px) {
+    font-size: 1.9rem;
+  }
 `;
 
 export const Title = styled.h1`
@@ -23,8 +27,7 @@ export const Title = styled.h1`
   z-index: 1;
 `;
 
-export const CarrouselStyled = styled(Carousel)`
-`;
+export const CarrouselStyled = styled(Carousel)``;
 
 export const CarrouselStyledWrapper = styled.div``;
 
@@ -37,11 +40,31 @@ export const Image = styled.img`
   object-fit: cover;
   margin: 0 auto;
   height: 450px;
+
+  @media (max-width: 1110px) {
+    height: 300px;
+  }
+
+  @media (max-width: 886px) {
+    height: 200px;
+  }
 `;
 
 export const Divider = styled.div`
   width: 100%;
   height: 100px;
+
+  @media (max-width: 1110px) {
+    height: 0px;
+  }
+
+  @media (max-width: 886px) {
+    margin-top: 50px;
+  }
+
+  @media (max-width: 540px) {
+    display: none;
+  }
 `;
 
 export const VideoStyled = styled.video`
@@ -55,4 +78,8 @@ export const VideoWrapper = styled.div`
   left: 0;
   width: 100%;
   opacity: 0.8;
+
+  @media (max-width: 540px) {
+    display: none;
+  }
 `;

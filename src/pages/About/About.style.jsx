@@ -11,12 +11,30 @@ export const Wrapper = styled.div`
     font-size: 2rem;
     color: white;
 
+    @media (max-width: 886px) {
+      font-size: 1.5rem;
+    }
   }
   h3 {
     text-align: center;
     font-size: 2.5rem;
     font-weight: 600;
     color: white;
+
+    @media (max-width: 886px) {
+      font-size: 2rem;
+    }
+  }
+
+  p {
+
+    @media (max-width: 886px) {
+      font-size: 1.4rem;
+    }
+
+    @media (max-width: 634px) {
+      font-size: 1.2rem;
+    }
   }
 `;
 
@@ -25,4 +43,8 @@ export const Title = styled.h1`
   font-weight: 700;
   font-size: 5rem;
   color: white;
+
+  @media (max-width: 886px) {
+      font-size: 4rem;
+    }
 `;
