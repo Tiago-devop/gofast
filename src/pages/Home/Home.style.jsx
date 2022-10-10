@@ -79,6 +79,18 @@ export const VideoWrapper = styled.div`
   width: 100%;
   opacity: 0.8;
 
+  @media (max-width: 772px) {
+    margin-top: 50px;
+  }
+
+  @media (max-width: 700px) {
+    margin-top: 100px;
+  }
+
+  @media (max-width: 600px) {
+    margin-top: 150px;
+  }
+
   @media (max-width: 540px) {
     display: none;
   }
